@@ -13,7 +13,10 @@ if __name__ == "__main__":
         setup(
             name='palvisualpy',
             packages=['palvisualpy'],
-            install_requires=['rich==13.3.2'],
+            install_requires=[
+                'rich==13.3.5',
+                'flatdict==4.0.1',
+            ],
             use_scm_version={"version_scheme": "no-guess-dev"}
         )
     except:  # noqa
