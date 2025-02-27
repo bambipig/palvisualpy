@@ -3,7 +3,20 @@
 requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools_scm]
-# For smarter version schemes and other configuration options,
-# check out https://github.com/pypa/setuptools_scm
-version_scheme = "no-guess-dev"
+[project]
+dynamic = ["version"]
+requires-python = ">= 3.6"
+name = "palvisualpy"
+dependencies = [
+    "rich == 13.3.5",
+    "flatdict == 4.0.1"
+]
+authors = [
+    {name = "Tiny Twist", email = "tiny.mahua@gmail.com"},
+]
+maintainers = [
+  {name = "Tiny Twist", email = "tiny.mahua@gmail.com"}
+]
+description = "A visual for py lib"
+
+[project.scripts]
