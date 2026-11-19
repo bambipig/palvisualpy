@@ -9,7 +9,7 @@ requires-python = ">= 3.6"
 name = "palvisualpy"
 dependencies = [
     "rich == 13.3.5",
-    "flatdict == 4.0.1"
+    "flatdict == 4.1.0"
 ]
 authors = [
     {name = "Tiny Twist", email = "tiny.mahua@gmail.com"},
